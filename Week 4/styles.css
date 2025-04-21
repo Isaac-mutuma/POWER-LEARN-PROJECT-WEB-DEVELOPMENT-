@@ -1,0 +1,149 @@
+/* General Styles */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f9;
+    color: #333;
+    line-height: 1.6;
+}
+
+/* Navbar Styles */
+.navbar {
+    background-color: #0078d7;
+    color: #fff;
+    padding: 1rem;
+    text-align: center;
+}
+
+.navbar a {
+    color: #fff;
+    text-decoration: none;
+    margin: 0 15px;
+    font-weight: bold;
+}
+
+.navbar a:hover {
+    text-decoration: underline;
+}
+
+/* Main Content Styles */
+.content {
+    padding: 20px;
+}
+
+/* Section Styles */
+section {
+    margin-bottom: 30px;
+    padding: 20px;
+    background: #fff;
+    border-radius: 8px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+.section1 {
+    background-color: #e3f2fd;
+}
+
+.section2 {
+    background-color: #fce4ec;
+}
+
+.section3 {
+    background-color: #e8f5e9;
+}
+
+/* Section Headings */
+section h1, section h2 {
+    color: #0078d7;
+    margin-bottom: 15px;
+}
+
+/* Links in Sections */
+section a {
+    color: #0078d7;
+    text-decoration: none;
+}
+
+section a:hover {
+    text-decoration: underline;
+}
+
+/* List Styles */
+ul {
+    list-style-type: disc;
+    margin-left: 20px;
+}
+
+ul li {
+    margin-bottom: 10px;
+}
+
+/* Responsive Design */
+
+/* Mobile (max-width: 600px) */
+@media (max-width: 600px) {
+    .navbar {
+        font-size: 14px;
+        padding: 0.5rem;
+    }
+
+    .navbar a {
+        margin: 0 10px;
+    }
+
+    .content {
+        padding: 10px;
+    }
+
+    section {
+        padding: 15px;
+    }
+
+    section h1, section h2 {
+        font-size: 18px;
+    }
+
+    ul {
+        margin-left: 15px;
+    }
+}
+
+/* Tablet (max-width: 768px) */
+@media (max-width: 768px) {
+    .navbar {
+        font-size: 16px;
+    }
+
+    .content {
+        padding: 15px;
+    }
+
+    section {
+        padding: 20px;
+    }
+
+    section h1, section h2 {
+        font-size: 20px;
+    }
+}
+
+/* Desktop (min-width: 769px) */
+@media (min-width: 769px) {
+    .navbar {
+        font-size: 18px;
+    }
+
+    .content {
+        max-width: 1200px;
+        margin: 0 auto;
+    }
+
+    section {
+        padding: 25px;
+    }
+
+    section h1, section h2 {
+        font-size: 24px;
+    }
+}
